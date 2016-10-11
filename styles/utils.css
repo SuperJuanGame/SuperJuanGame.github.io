@@ -1,0 +1,46 @@
+/* UTILS */
+
+
+.anchor-right {
+	float: right;
+}
+
+.anchor-text {
+	color: var( --link-color);
+	font-size: 1.1em;
+	text-decoration: none;
+}
+
+.anchor-text:hover{
+	color: var( --link-color-hover);
+}
+
+.anchor-no-size:hover{
+	color: var( --link-color-hover);
+}
+
+.anchor-no-size {
+	color: var( --link-color);
+	text-decoration: none;
+}
+.anchor-small {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+.more {
+  /*float: right;*/
+  margin-right: 5px;
+  color: var(--link-color);
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.more:hover{
+	color: var( --link-color-hover);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var( --secondary-color-light);
+}

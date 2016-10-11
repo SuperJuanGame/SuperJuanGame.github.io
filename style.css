@@ -1,0 +1,48 @@
+
+@import "styles/variables.css";
+@import "styles/header.css";
+@import "styles/footer.css";
+@import "styles/main-content.css";
+@import "styles/ticket-banner.css";
+@import "styles/page-news.css";
+@import "styles/utils.css";
+@import "styles/page-tickets.css";
+@import "styles/page-start.css";
+@import "styles/page-info.css";
+@import "styles/page-lineup.css";
+@import "styles/page-anreise.css";
+@import "styles/page-work-in-progress.css";
+
+html {
+  background: var( --secondary-color);
+  min-height: 1020px;
+}
+
+.landing-html {
+	background: -moz-linear-gradient(top, var( --secondary-color) 0%, var( --secondary-color-light) 95%, var( --secondary-color) 100%) !important;
+}
+
+.uid-project {
+	margin: 0px;
+	/*background: -moz-linear-gradient(top, var( --secondary-color) 0%, var( --secondary-color-light) 95%, var( --secondary-color) 100%);*/
+/*	background: var( --secondary-color);*/
+	/*background-image: url("img/background.jpg");*/
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:  cover;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 95%;
+}
+
+header.fixed-header {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	color: #000;
+	background-color: #000;
+}
+
+/*.fixed-header .main-content {
+	margin-top: 110px;
+}*/

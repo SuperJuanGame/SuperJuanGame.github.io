@@ -1,0 +1,31 @@
+:root {
+	/* General variables */
+  --primary-color: rgba(0,0,0,0.8);
+  --secondary-color: #2a3b53;
+  --secondary-color-light: #155764;
+  --link-color: rgba(218, 77, 20, 1);
+  --link-color-hover: rgba(218, 77, 20, 0.5);
+  --width-main-content: 960px;
+  --color-background: #2a3b53;
+  --background-content: rgba(255, 255, 255, 0.95);
+
+  	/* Variables header*/
+  	/*--height-header: 73px;*/
+    --height-header: 73px;
+
+
+  	/* Variables navigation*/
+	--sizelogo: 250px;
+
+
+
+  	/* Variables main content*/
+  	--min-height-content:650px;
+  	--margin-content: 60px;
+    --margin-content-top: 30px;
+
+
+
+  	/* Variables footer*/
+  	--height-footer:45px;
+}
