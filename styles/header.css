@@ -1,6 +1,7 @@
 /* HEADER */
 
 .header-content {
+		z-index: 2;
 	background-color: #000;
 	background-color: var( --primary-color);
 	background: -moz-linear-gradient(left, var( --secondary-color) 0%, var( --secondary-color-light) 33%, var( --secondary-color-light) 66%, var( --secondary-color) 100%);
@@ -60,24 +61,4 @@
 	box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
 }
 
-.header-content .social-media {
-	float: right;
-	margin-top: -65px;
-}
 
-.header-content .social-media ul {
-	padding: 0px;
-}
-
-.header-content .social-media ul li {
-	display: inline;
-	padding: 0px;
-}
-
-.header-content .social-media ul li a {
-	margin-right: 10px;
-}
-
-.header-content .social-media ul li a .fa {
-	color: #fff;
-}
