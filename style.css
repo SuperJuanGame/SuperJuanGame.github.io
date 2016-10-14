@@ -1,21 +1,13 @@
 
 @import "styles/variables.css";
-@import "styles/header.css";
-@import "styles/footer.css";
-@import "styles/main-content.css";
-@import "styles/ticket-banner.css";
-@import "styles/page-news.css";
-@import "styles/utils.css";
-@import "styles/page-tickets.css";
-@import "styles/page-start.css";
-@import "styles/page-info.css";
-@import "styles/page-lineup.css";
-@import "styles/page-anreise.css";
-@import "styles/page-work-in-progress.css";
 
 html {
   background: var( --secondary-color);
   min-height: 1020px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var( --secondary-color-light);
 }
 
 .landing-html {
@@ -46,3 +38,161 @@ header.fixed-header {
 /*.fixed-header .main-content {
 	margin-top: 110px;
 }*/
+
+
+/* HEADER */
+
+.header-content {
+	z-index: 2;
+	background-color: #000;
+	background-color: var( --primary-color);
+	background: -moz-linear-gradient(left, var( --secondary-color) 0%, var( --secondary-color-light) 33%, var( --secondary-color-light) 66%, var( --secondary-color) 100%);
+	height: var( --height-header);
+	border: 1px solid transparent;	
+}
+
+.header-content .logo {
+	margin-left: 10px;
+	margin-top: 10px;
+	float: left;
+}
+
+.logo:hover{
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.header-content .logo img {
+	height: var( --sizelogo);
+	width: var( --sizelogo);
+}
+
+.header-content nav {
+    width: var( --width-main-content);
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-content nav ul {
+	padding: 0px;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-content nav ul .active a{
+	border: none;
+	background-color: rgba(255,255,255,0.2);
+	box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+	color: #fff;
+
+}
+
+.header-content nav ul li{
+	display: inline;
+	margin-right: 20px;
+}
+
+.header-content nav ul li a {
+	text-decoration: none;
+	font-size: 1.8em;
+	color: #fff;
+	border-radius: 5px;
+	padding: 0.3em;
+	border: 2px solid transparent;
+}
+
+.header-content nav ul li a:hover {
+	border-color: rgba(255,255,255,0.2);
+	box-shadow: 3px 3px 2px rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+
+.footer-content {
+	background: -moz-linear-gradient(left, var( --secondary-color) 0%, var( --secondary-color-light) 33%, var( --secondary-color-light) 66%, var( --secondary-color) 100%);
+	height: var( --height-footer);
+	background-color: var( --primary-color);
+}
+
+.footer-content .list ul {
+	padding-top: 10px;
+}
+
+.footer-content .list ul li{
+	padding: 0px;
+	display: inline;
+}
+
+.footer-content .list ul li a {
+	color: #fff;
+	font-size: 1em;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* MAIN CONTENT*/
+
+.main-content {
+    width: var( --width-main-content);
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: var( --margin-content);
+    padding-top: var( --margin-content-top);
+}
+
+.main-content .content-wrapper {
+	background: var( --background-content);
+	border-radius: 5px;
+	padding: 25px;
+	margin-top:	40px;
+}
+
+.main-content .header {
+	min-height: 60px;
+	margin-left: 10px;   	
+}
+
+.main-content .header ul {
+	padding: 0px;
+	margin-top: -5px;
+	margin-left: 20px;
+}
+
+.main-content .header ul li {
+	display: inline;
+	margin-right: 40px;
+}
+
+.main-content .header .headline {
+	border-bottom: 3px solid var( --primary-color);
+	text-transform: uppercase;
+	margin-right: 30px;
+}
+
+.main-content .content {
+	min-height: var( --min-height-content);
+	padding: 15px;
+}
+
+.teamimage{
+	padding:5px;
+
+}
+
+td{
+	text-align: center;
+	vertical-align: center;
+
+}
