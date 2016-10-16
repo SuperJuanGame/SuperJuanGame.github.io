@@ -106,8 +106,6 @@ header.fixed-header {
 	background: -moz-linear-gradient(left, var( --secondary-color) 0%, var( --secondary-color-light) 33%, var( --secondary-color-light) 66%, var( --secondary-color) 100%);
 	height: var( --height-footer);
 	background-color: var( --primary-color);
-	position: absolute;
-	float: bottom;
 }
 
 .footer-content .list ul {
