@@ -107,6 +107,7 @@ header.fixed-header {
 	height: var( --height-footer);
 	background-color: var( --primary-color);
 	position: absolute;
+	float: bottom;
 }
 
 .footer-content .list ul {
